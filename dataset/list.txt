@@ -1,0 +1,17 @@
+
+00000060	rice leaf roller insect.
+00000061	rice leaf roller insect.
+
+
+First column contains the image name.
+Second column contains text description about image.
+Use <tab> to separate columns.
+ 
+
+Ensure that the image names are consistent across the following directories:
+
+./dataset/list.txt
+./dataset/img/
+./dataset/cond/cond-All/
+Each file should have a same name in all locations to maintain data consistency.
+
