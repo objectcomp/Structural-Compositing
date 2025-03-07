@@ -1,6 +1,5 @@
 # Harmonizing Structural Cues for Image Compositing
-This repository provides a diffusion-based framework for controllable image compositing, enabling seamless integration of foreground and background elements with precise structural and semantic coherence. Use our code and models to generate high-quality, realistic composited images for both creative and practical applications.
-
+This repository provides a diffusion-based framework for controllable image compositing, enabling structural harmonization and seamless blending of foreground and background elements with precise control over the foreground object. Use our code and models to generate high-quality, realistic composited images for both creative and practical applications.
 
 ## 🚀 Features
 
@@ -10,11 +9,10 @@ This repository provides a diffusion-based framework for controllable image comp
 
 
 ## 📥 Installation
+create an environment using by running following command.
 ```python
-pip install -r requirements.txt
+conda env create -f environment.yaml
 ```
-## ✅ Inference
-Run the Demo.ipynb script to generate composited images.
 
 ## 🔹 Training
 For training on your own dataset. Follow the following steps.
@@ -52,3 +50,6 @@ Once the dataset is organized and model wieghts are initilized, run:
 ```python
 python src/train/train.py
 ```
+
+## ✅ Inference
+To perform inference, refer to the src/inference.py file.
