@@ -3,8 +3,8 @@ This repository provides a diffusion-based framework for controllable image comp
 
 ## 🚀 Features
 
-   ##### 🔹 Dedicated Encoders - Specially designed to extract structural cues from each condition for structure-aware compositing.
-   ##### 🔹 Adaptive Gating - Composites foreground and background structural cues adaptively.
+   ##### 🔹 Dedicated Encoders - Specially designed to extract structural cues from each condition.
+   ##### 🔹 Adaptive Gating - Fuses structural cues adaptively.
    ##### 🔹 Specialized Feature Injection - Incorporates customized feature injection block for injecting structural cues.
 
 
